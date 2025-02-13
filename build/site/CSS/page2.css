@@ -1,0 +1,98 @@
+.titre
+{
+	font-size: 24px;
+	color: #0000ff;
+	clear:both;
+	text-align: center;
+	text-shadow: 0px 0px 3px #ffffff;
+}
+
+.texte
+{
+	margin-left: 20px;
+	margin-right: 30px;
+	font-size: 16px;
+	color: white;
+	text-indent: 40px;
+    margin-top: 12vh;
+	text-shadow: 0px 0px 3px #000000;
+}
+
+p
+{
+	font-family: cursive;
+	color:white;
+}
+
+body
+{
+	background-image:url("../Images/Background.png");
+}
+
+header
+{
+	display:block;
+	width: 100%;
+	margin: 0;
+	background-color: #666666;
+	padding: 10px 25px;
+	box-sizing: border-box;
+}
+
+.left {float:left;
+}
+
+.right {float:right;
+padding-top: 10px;
+}
+
+.clr {clear:both}
+
+.animated
+{
+	display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5em;
+	
+-moz-transition-duration:4s;
+-moz-transition-timing-function:linear;
+-webkit-transition-duration:4s;
+-webkit-transition-timing-function:linear;
+transition-duration:0.5s;
+transition-timing-function:linear;	
+}
+
+img:hover {
+-moz-transform:rotate(360deg);
+-webkit-transform:rotate(360deg);
+transform:rotate(360deg);
+}
+
+li
+{
+	color:#ffffff;
+	margin-left: 50px;
+	text-shadow: 0px 0px 3px #000000;
+	
+	display: inline-block;
+	list-style-type: none;
+	padding-left: 10px;
+}
+
+li a
+{
+	text-decoration: none;
+	color : white;
+	font-family: fantasy;
+	font-weight: normal;
+	font-size: 1.6em;
+}
+
+body, html
+{
+	width: 100%;
+	max-width: 100%;
+	margin: 0;
+	padding:0;
+}
